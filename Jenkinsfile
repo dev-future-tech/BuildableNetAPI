@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'bitnami/dotnet-sdk:5'}
+    }
 
     stages {
         stage('build') {
