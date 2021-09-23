@@ -1,14 +1,3 @@
-pipeline {
-    agent {
-        docker { image 'bitnami/dotnet-sdk:5'}
-    }
+@Library("welcome-java") _
 
-    stages {
-        stage('build') {
-            steps {
-                sh "dotnet restore"
-                sh "dotnet build"
-            }
-        }
-    }
-}
+infraBuild()
