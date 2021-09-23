@@ -5,7 +5,7 @@ terraform {
     region = "main"
     access_key = "minio"
     secret_key = "miniostorage"
-    bucket = "BuildableNetAPI_Infra"
+    bucket = "buildablenetapi"
     skip_credentials_validation = true
     skip_metadata_api_check = true
     skip_region_validation = true
