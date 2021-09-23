@@ -1,3 +1,3 @@
 @Library("welcome-java") _
 
-infraBuild()
+infraBuild('Buildable Net API')
